@@ -4,7 +4,48 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    body{
+        background-color: cornflowerblue;
+    }
+    .load{
+        color:white;
+        position: absolute;
+        font-size: 25px;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        font-weight: lighter; /* 字體細 */
+        transform: translate(-50%, -50%);
+    }
+    .wait{
+        color:white;
+        position: absolute;
+        font-size: 52px;
+        text-align: center;
+        top: 60%;
+        left: 50%;
+        font-weight: bold; /* 字體粗 */
+        transform: translate(-50%, -50%);
+    }
+    img {
+        position: absolute;
+        width: 250px; /* 調整圖片寬度 */
+        height: auto; /* 讓高度按比例縮放 */
+        top: 0; /* 將圖片定位在上方 */
+        left: 0; /* 將圖片定位在左側 */
+    }
+</style>
+
 <body>
+<img src="imgs/KingBus_Logo.svg" alt="KingBus_Logo.svg">
+<div class="load">
+    <p title ="load">Welcome To Kuo-Kuang Bus and The City</p>
+</div>
+
+<div class ="wait">
+    <p title ="wait">Please Waiting for Seconds...</p>
+</div>
 
 </body>
 </html>
